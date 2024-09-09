@@ -1,23 +1,17 @@
-# Game Design Doc
+# To Do List
 
-## Objective
-
-- Game Type: Isometric RPG
-- Art Style: Low-poly Style
-- Game Map: Grid-based movement
-
-## Features
-- Procedural dungeons
-- Turn-based combat
-- Enemies/monsters (AI)
-- Inventory / Loot
-- Weapons (procedural?)
-- Quests
-- NPCs
-- Town
-- Character Stats / Classes
-
-## Development
-- Start simple
-- Build layer by layer
-- Focus on gameplay first, graphics and polish and optimization come later
+- [ ] Overworld
+  - [x] Terrain - Flat plane
+  - [x] Trees
+  - [x] Rocks
+  - [ ] Bushes
+- [ ] Player Character
+  - [ ] Draw character on the screen
+  - [ ] Point and click controls
+  - [ ] Navigation (ignore obstacles)
+    - [ ] A* Algorithm
+  - [ ] Improved Navigation (obstacle avoidance)
+- [ ] Enemies
+  - [ ] Draw enemies on screen (static)
+  - [ ] Patrol
+- [ ] Combat
